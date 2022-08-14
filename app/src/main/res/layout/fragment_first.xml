@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="@string/fragment1Label"
+        android:textSize="20sp" />
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/GridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        tools:context=".GridXMLActivity" >
+
+        <TextView
+        android:id="@+id/prihod"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/financeType1"/>
+
+        <TextView
+            android:id="@+id/prihodValue"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+
+        <TextView
+            android:id="@+id/rashod"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/financeType2"/>
+
+        <TextView
+            android:id="@+id/rashodValue"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+
+        <TextView
+            android:id="@+id/razlika"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/distinction"/>
+
+        <TextView
+            android:id="@+id/razlikaValue"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+    </GridLayout>
+
+</LinearLayout>

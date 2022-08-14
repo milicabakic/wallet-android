@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20sp"
+        android:text="@string/fragment2Label"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label"
+        android:entries="@array/spinnerItems"/>
+
+    <EditText
+        android:id="@+id/inputNaslov"
+        android:hint="@string/financeTitle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/spinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:lines="1"
+        android:imeOptions="actionDone"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/inputKolicina"
+        android:hint="@string/financeQuantity"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/inputNaslov"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:lines="1"
+        android:imeOptions="actionDone"
+        android:inputType="text"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_audio"
+        app:layout_constraintTop_toBottomOf="@+id/inputKolicina"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/financeAudio"
+        android:onClick="onCheckboxClicked"/>
+
+    <EditText
+        android:id="@+id/inputOpis"
+        android:hint="@string/financeDescription"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:textSize="10sp"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_audio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/pictureAudio"
+        android:src="@drawable/audio_picture"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_audio"/>
+
+    <ImageView
+        android:id="@+id/pictureRecord"
+        android:src="@drawable/recordaudio_picture"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_audio"/>
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/pictureAudio"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <Button
+        android:id="@+id/btnDodaj"
+        android:background="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="55dp"
+        android:width="70dp"
+        android:height="30dp"
+        android:textSize="10sp"
+        android:text="@string/fragment2Button"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

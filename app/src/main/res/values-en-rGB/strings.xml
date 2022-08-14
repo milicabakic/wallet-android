@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wallet</string>
+    <string name="loginTitle">Student Wallet System</string>
+    <string name="loginName">Name</string>
+    <string name="loginSurname">Surname</string>
+    <string name="loginPassword">Password</string>
+    <string name="loginBank">Bank</string>
+    <string name="loginButton">Login</string>
+    <string name="mainActivityTab4">Profile</string>
+    <string name="mainActivityTab3">Lists</string>
+    <string name="mainActivityTab2">Entry</string>
+    <string name="financeType1">Profit</string>
+    <string name="financeType2">Expense</string>
+    <string name="distinction">Total</string>
+    <string name="fragment2Label">New Finance - profit or expense</string>
+    <string name="fragment2Button">Add to list</string>
+    <string name="financeTitle">Title</string>
+    <string name="financeQuantity">Sum</string>
+    <string name="financeDescription">Description</string>
+    <string name="financeAudio">Audio</string>
+    <string name="tabItems1">Profits</string>
+    <string name="tabItems2">Expenses</string>
+    <string name="fragment4Title">Profile Information</string>
+    <string name="userName">Name:</string>
+    <string name="userSurname">Surname:</string>
+    <string name="userBank">Bank:</string>
+    <string name="financeActivityTitle">Finance Information</string>
+    <string name="title">Title:</string>
+    <string name="quantity">Sum:</string>
+    <string name="description">Description:</string>
+    <string name="editUserTitle">Profile Information</string>
+    <string name="editBtn">Edit</string>
+    <string name="logoutBtn">Logout</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="backBtn">Back</string>
+    <string name="submitBtn">Confirm</string>
+    <string name="fragment1Label">Total Bank Account Balance</string>
+    <string name="mainActivityTab1">Bank Account</string>
+</resources>

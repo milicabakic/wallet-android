@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Wallet</string>
+
+    <string-array name="spinnerItems">
+        <item>Prihod</item>
+        <item>Rashod</item>
+    </string-array>
+
+    <string name="financeType1">Prihod</string>
+    <string name="financeType2">Rashod</string>
+
+    //login labels
+    <string name="loginTitle">Novcanik sistem za studenta</string>
+    <string name="loginName">Unesite ime</string>
+    <string name="loginPassword">Unesite sifru</string>
+    <string name="loginBank">Unesite ime banke</string>
+    <string name="loginButton">Prijava</string>
+
+    //Navigation tabs of MainActivity
+    <string name="mainActivityTab1">Stanje</string>
+    <string name="mainActivityTab2">Unos</string>
+    <string name="mainActivityTab3">Liste</string>
+    <string name="mainActivityTab4">Profil</string>
+
+    //First fragment
+    <string name="fragment1Label">Pregled ukupnog stanja racuna</string>
+    <string name="distinction">Razlika</string>
+
+    //Second fragment
+    <string name="fragment2Label">Unos novog prihoda ili rashoda</string>
+    <string name="fragment2Button">Dodaj u listu</string>
+    <string name="financeTitle">Naslov</string>
+    <string name="financeQuantity">Količina</string>
+    <string name="financeDescription">Opis</string>
+    <string name="financeAudio">Audio</string>
+
+    //Third fragment
+    <string name="tabItems1">Prihodi</string>
+    <string name="tabItems2">Rashodi</string>
+
+    //Fourth fragment
+    <string name="fragment4Title">Podaci o korisniku</string>
+    <string name="userName">Ime:</string>
+    <string name="userSurname">Prezime:</string>
+    <string name="userBank">Banka:</string>
+
+    //FinanceActivity
+    <string name="financeActivityTitle">Podaci o finansiji</string>
+    <string name="title">Naslov:</string>
+    <string name="quantity">Kolicina:</string>
+    <string name="description">Opis:</string>
+
+    //EditUserActivity
+    <string name="editUserTitle">Podaci o korisniku</string>
+
+    //Button names
+    <string name="editBtn">Izmeni</string>
+    <string name="logoutBtn">Odjava</string>
+    <string name="cancelBtn">Poništi</string>
+    <string name="submitBtn">Potvrdi</string>
+    <string name="backBtn">Nazad</string>
+    <string name="loginSurname">Unesite prezime</string>
+
+</resources>

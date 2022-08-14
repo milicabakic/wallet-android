@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wallet</string>
+    <string name="financeType1">Prihod</string>
+    <string name="financeType2">Rashod</string>
+    <string name="loginTitle">Novčanik sistem za studenta</string>
+    <string name="loginName">Unesite ime</string>
+    <string name="loginSurname">Unesite prezime</string>
+    <string name="loginPassword">Unesite šifru</string>
+    <string name="loginBank">Unesite ime banke</string>
+    <string name="loginButton">Prijava</string>
+    <string name="mainActivityTab1">Stanje</string>
+    <string name="mainActivityTab2">Unos</string>
+    <string name="mainActivityTab3">Liste</string>
+    <string name="mainActivityTab4">Profil</string>
+    <string name="fragment1Label">Pregled ukupnog stanja racuna</string>
+    <string name="distinction">Razlika</string>
+    <string name="fragment2Label">Unos novog prihoda ili rashoda</string>
+    <string name="fragment2Button">Dodaj u listu</string>
+    <string name="financeTitle">Naslov</string>
+    <string name="financeQuantity">Kolicina</string>
+    <string name="financeDescription">Opis</string>
+    <string name="financeAudio">Audio</string>
+    <string name="tabItems1">Prihodi</string>
+    <string name="tabItems2">Rashodi</string>
+    <string name="fragment4Title">Podaci o korisniku</string>
+    <string name="userName">Ime:</string>
+    <string name="userSurname">Prezime:</string>
+    <string name="userBank">Banka:</string>
+    <string name="financeActivityTitle">Podaci o finansiji</string>
+    <string name="title">Naslov:</string>
+    <string name="quantity">Količina:</string>
+    <string name="description">Opis:</string>
+    <string name="editUserTitle">Podaci o korisniku</string>
+    <string name="editBtn">Izmeni</string>
+    <string name="logoutBtn">Odjava</string>
+    <string name="cancelBtn">Ponisti</string>
+    <string name="submitBtn">Potvrdi</string>
+    <string name="backBtn">Nazad</string>
+</resources>
